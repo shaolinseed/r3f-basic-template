@@ -1,5 +1,4 @@
 import { Canvas } from "@react-three/fiber";
-import "./App.css";
 import Box from "./components/Box";
 import { OrbitControls, PerspectiveCamera } from "@react-three/drei";
 import { Leva } from "leva";

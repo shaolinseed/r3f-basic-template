@@ -2,11 +2,11 @@ import { Canvas } from "@react-three/fiber";
 import "./App.css";
 import Box from "./components/Box";
 import { OrbitControls, PerspectiveCamera } from "@react-three/drei";
-import { Leva } from 'leva'
+import { Leva } from "leva";
 
 function App() {
   return (
-    <div className="App h-screen">
+    <div className="App h-screen v-screen">
       <Canvas>
         <OrbitControls />
         <PerspectiveCamera makeDefault fov={50} position={[3, 2, 5]} />
